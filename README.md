@@ -4,17 +4,17 @@ This activity is pass-fail. For each section you will be asked to create a Pytho
 
 The tasks you should complete are as follows:
 
-1. [Primitive Data Types](#1-primitive-data-types)
-2. [Output](#2-output)
-3. [Input](#3-input)
-4. [If Statements](#4-if-statements)
-5. [Combining Conditions](#5-combining-conditions)
-6. [For Loops](#6-for-loops)
-7. [For Loops and Strings](#7-for-loops-and-strings)
-8. [While loops](#8-while-loops)
-9. [Input Validation with a While Loop](#9-input-validation-with-a-while-loop)
-10. [Putting It Together](#10-putting-it-together)
-11. [Final Review Challenge](#11-final-review-challenge)
+1. [ ] [Primitive Data Types](#1-primitive-data-types)
+2. [ ] [Output](#2-output)
+3. [ ] [Input](#3-input)
+4. [ ] [If Statements](#4-if-statements)
+5. [ ] [Combining Conditions](#5-combining-conditions)
+6. [ ] [For Loops](#6-for-loops)
+7. [ ] [For Loops and Strings](#7-for-loops-and-strings)
+8. [ ] [While loops](#8-while-loops)
+9. [ ] [Input Validation with a While Loop](#9-input-validation-with-a-while-loop)
+10. [ ] [Putting It Together](#10-putting-it-together)
+11. [ ] [Final Review Challenge](#11-final-review-challenge)
 
 By the end, you should have 11 distinct Python files that have been appropriately modified, and this assignment will be out of 11 marks.
 
