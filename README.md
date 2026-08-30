@@ -1,6 +1,26 @@
-# Computer Science 25 Python Review
-
 # Python Programming Review
+
+This activity is pass-fail. For each section you will be asked to create a Python file and perform a small review task. By completing each task, you will pass that task.
+
+The tasks you should complete are as follows:
+
+1. [Primitive Data Types](#1-primitive-data-types)
+2. [Output](#2-output)
+3. [Input](#3-input)
+4. [If Statements](#4-if-statements)
+5. [Combining Conditions](#5-combining-conditions)
+6. [For Loops](#6-for-loops)
+7. [For Loops and Strings](#7-for-loops-and-strings)
+8. [While loops](#8-while-loops)
+9. [Input Validation with a While Loop](#9-input-validation-with-a-while-loop)
+10. [Putting It Together](#10-putting-it-together)
+11. [Final Review Challenge](#11-final-review-challenge)
+
+By the end, you should have 11 distinct Python files that have been appropriately modified, and this assignment will be out of 11 marks.
+
+If you need any help with the review material there are some [guidelines at the bottom of this document for an effective way to use AI to help you review](#ai-practice-prompt).
+
+---
 
 This activity reviews the Python skills you will need before moving into Computer Science 25. Work through each section in order. For each topic, you will:
 
@@ -40,6 +60,8 @@ print(likes_programming)
 
 ### Try It
 
+Create a new Python file named `data_types.py`.
+
 Copy and run the program above.
 
 Then change each variable so that it contains different information.
@@ -60,9 +82,11 @@ print(type(height))
 print(type(likes_programming))
 ```
 
+Add the code above to `data_types.py` and run it.
+
 ### Create Your Own
 
-Create four variables:
+In `data_types.py`, create four new variables:
 
 * One `str`
 * One `int`
@@ -70,10 +94,6 @@ Create four variables:
 * One `bool`
 
 Print each variable.
-
-```python
-# Write your program here.
-```
 
 ---
 
@@ -111,30 +131,21 @@ print(f"{name} earned a score of {score}.")
 
 ### Try It
 
-Copy and run the program.
+Create a new Python file named `output.py`.
+
+Copy and run the f-string example above.
 
 Change the values of `name` and `score`.
 
-```python
-name = "Sam"
-score = 92
-
-print(f"{name} earned a score of {score}.")
-```
-
 ### Create Your Own
 
-Create variables containing:
+In `output.py`, create variables containing:
 
 * Your name
 * Your favourite number
 * Your favourite school subject
 
 Use one `print()` statement and an f-string to display all three pieces of information in a sentence.
-
-```python
-# Write your program here.
-```
 
 ---
 
@@ -170,7 +181,9 @@ print(f"The temperature is {temperature} degrees.")
 
 ### Try It
 
-Copy and run this program.
+Create a new Python file named `input.py`.
+
+Copy and run this program:
 
 ```python
 name = input("What is your name? ")
@@ -183,7 +196,7 @@ Modify the program so that it also asks the user for their favourite food.
 
 ### Create Your Own
 
-Write a program that:
+In `input.py`, write a program that:
 
 1. Asks the user for their name.
 2. Asks the user for two numbers.
@@ -198,10 +211,6 @@ Enter a number: 10
 Enter another number: 5
 
 Alex, the total is 15.
-```
-
-```python
-# Write your program here.
 ```
 
 ---
@@ -251,7 +260,9 @@ else:
 
 ### Try It
 
-Copy the program above.
+Create a new Python file named `if_else.py`.
+
+Copy and run the program above.
 
 Change the program so that it checks whether someone is old enough to drive based on an age of `16`.
 
@@ -280,7 +291,9 @@ Once it finds a condition that is `True`, it runs that block and skips the remai
 
 ### Try It
 
-Copy and run the program several times using different scores.
+Add the example above to `if_else.py`.
+
+Run the program several times using different scores.
 
 Try:
 
@@ -293,6 +306,8 @@ Try:
 
 ### Create Your Own
 
+Create a new Python file named `temperature_checker.py`.
+
 Write a program that asks the user for the current temperature.
 
 The program should print:
@@ -301,10 +316,6 @@ The program should print:
 * `"Warm"` if the temperature is `20` or higher.
 * `"Cool"` if the temperature is `10` or higher.
 * `"Cold"` otherwise.
-
-```python
-# Write your program here.
-```
 
 ---
 
@@ -345,16 +356,14 @@ else:
 
 ### Create Your Own
 
+Create a new Python file named `event_entry.py`.
+
 Write a program that asks the user for:
 
 * Their age
 * Whether they have a ticket
 
 Allow them to enter an event only if they are at least `14` **and** have a ticket.
-
-```python
-# Write your program here.
-```
 
 ---
 
@@ -426,6 +435,8 @@ Output:
 
 ### Try It
 
+Create a new Python file named `for_loops.py`.
+
 Write a loop that prints:
 
 ```text
@@ -441,13 +452,9 @@ Write a loop that prints:
 10
 ```
 
-```python
-# Write your program here.
-```
-
 ### Modify It
 
-Write a loop that prints:
+In the same file, change your loop so that it prints:
 
 ```text
 10
@@ -462,11 +469,9 @@ Write a loop that prints:
 100
 ```
 
-```python
-# Write your program here.
-```
-
 ### Create Your Own
+
+Create a new Python file named `multiplication_table.py`.
 
 Ask the user for a number.
 
@@ -487,10 +492,6 @@ Enter a number: 5
 5 x 8 = 40
 5 x 9 = 45
 5 x 10 = 50
-```
-
-```python
-# Write your program here.
 ```
 
 ---
@@ -519,7 +520,9 @@ n
 
 ### Try It
 
-Modify the program so that the user enters the word.
+Create a new Python file named `string_loop.py`.
+
+Copy and run this program:
 
 ```python
 word = input("Enter a word: ")
@@ -530,19 +533,13 @@ for letter in word:
 
 ### Create Your Own
 
-Ask the user for a word.
-
-Count how many times the letter `"a"` appears in the word.
+In `string_loop.py`, modify your program so that it asks the user for a word and counts how many times the letter `"a"` appears.
 
 For example:
 
 ```text
 Enter a word: banana
 The letter a appears 3 times.
-```
-
-```python
-# Write your program here.
 ```
 
 ---
@@ -601,21 +598,19 @@ print("Access granted.")
 
 ### Try It
 
+Create a new Python file named `while_loops.py`.
+
 Copy and run the password program.
 
 Change the correct password to something different.
 
----
+### Create Your Own
 
-## Create Your Own
+Create a new Python file named `number_entry.py`.
 
 Write a program that repeatedly asks the user to enter a number.
 
 The program should stop when the user enters `0`.
-
-```python
-# Write your program here.
-```
 
 ---
 
@@ -635,17 +630,17 @@ print(f"You entered {number}.")
 
 ### Create Your Own
 
+Create a new Python file named `percentage_validator.py`.
+
 Ask the user to enter a percentage from `0` to `100`.
 
 If they enter an invalid number, continue asking until they enter a valid percentage.
 
-```python
-# Write your program here.
-```
-
 ---
 
 # 10. Putting It Together
+
+Create a new Python file named `number_guessing_game.py`.
 
 Create a small number guessing game.
 
@@ -672,13 +667,11 @@ Correct!
 
 Start with a fixed secret number rather than generating a random number.
 
-```python
-# Write your program here.
-```
-
 ---
 
 # 11. Final Review Challenge
+
+Create a new Python file named `number_analyzer.py`.
 
 Create a program called **Number Analyzer**.
 
@@ -730,10 +723,6 @@ Your program should include:
 * `else`
 * A `for` loop
 
-```python
-# Write your program here.
-```
-
 ---
 
 # Review Checklist
@@ -758,6 +747,7 @@ Before moving on, make sure you can do each of the following without copying an 
 * [ ] Use a loop to repeatedly request input.
 * [ ] Combine variables, input, output, conditions, and loops in one program.
 
+---
 
 # Using AI for Extra Review
 
@@ -783,6 +773,8 @@ Possible topics include:
 * Input validation
 
 ## AI Practice Prompt
+
+For additional practice with a topic, copy and paste this prompt into an LLM of your choice, replacing `[TOPIC]` with the topic you would like more practice with.
 
 ```text
 I am reviewing Python programming and need more practice with [TOPIC].
