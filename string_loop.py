@@ -12,4 +12,3 @@ for letter in word:
     print(letter)
     if letter == "P":
         print("Thats a p")
-print
