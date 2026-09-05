@@ -4,15 +4,15 @@
 # Tell the player whether each incorrect guess is too high or too low.
 # Print a congratulatory message when they find the correct answer.
 number=""
-number="" int
-ask=(input("Guess the number:"))
-while number < 6:
+
+ask= (int(input("Guess the number:")))
+while ask < 6:
     print("Too low! Try again!")
-    ask = (input("Guess the number:"))
-#
-# while number> 6:
-#     print("Too high!Try again")
-#     ask = (int(input(n"Guess the number:")))
+    ask = (int(input("Guess the number:")))
+
+while ask> 6:
+    print("Too high!Try again")
+    ask = (int(input("Guess the number:")))
 
 else:
     print("You got it right!")

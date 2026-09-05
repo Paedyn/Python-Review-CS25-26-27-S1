@@ -1,6 +1,6 @@
-number=""
-number = (int(input("Enter the number: ")))
-while number> 0:
-  again= input("Another number:")
-else:
+
+ask = (int(input("Enter the number: ")))
+while ask> 0:
+  ask= (int(input("Another number:")))
+  while ask==0:
     print("CODE DONE")
